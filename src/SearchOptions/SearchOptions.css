@@ -1,0 +1,19 @@
+.search-form {
+    border-bottom: solid darkgray 1px;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: gray;
+    padding: 5px;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: lightgrey;
+    padding:  5px;
+}

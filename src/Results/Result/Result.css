@@ -1,0 +1,28 @@
+.result {
+    border-bottom: solid darkgrey 1px;
+    height: 250px;
+}
+
+.result h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.result h3 {
+    text-align: center;
+}
+
+.result img {
+    float: left;
+    margin-left: 50px;
+    margin-right: 30px;
+}
+
+.result p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.description {
+    margin-bottom: 40px;
+}

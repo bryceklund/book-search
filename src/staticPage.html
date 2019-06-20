@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Google Book Search</title>
+    <link rel="stylesheet" href="./staticPage.css">
+</head>
+<body>
+    <header>
+        <h1>Google Book Search</h1>
+    </header>
+    
+    <form class="search-form">
+        <section class="search">
+            <label for="search">Search: </label>
+            <input name="search" id="search" type="text" placeholder="search for books" />
+            <button>Search</button>
+        </section>
+        <section class="options">
+            <label for="print-type">Print Type: </label>
+            <select name="print-type" id="print-type">
+                <!--map the options down or include them manually-->
+            </select>
+            <label for="book-type">Book Type: </label>
+            <select name="book-type" id="book-type">
+                <!--map the options down or include them manually-->
+            </select>
+        </section>
+    </form>
+    
+    <section class="results">
+        <ul>
+            <li class="result">
+                <h2>Henry I</h2>
+                <h3>A very nice book</h3>
+                <img src="http://books.google.com/books/content?id=UjgsDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api" alt="book cover" />
+                <p class="author-price">
+                    Author: Warren Hollister<br />
+                        Price: $50.00
+                </p>
+
+                <p class="description">The resulting volume is one that will be welcomed by students and general readers alike.</p>
+            </li>
+        </ul>
+    </section>
+</body>
+</html>
