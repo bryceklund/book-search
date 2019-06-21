@@ -9,7 +9,7 @@ class Result extends Component {
                         <li className="result" key={index}>
                         <h2>{book.title}</h2>
                         <h3>{book.subtitle}</h3>
-                        <img src={`${book.link}`} alt="book cover" />
+                        <img src={`${book.image}`} alt="book cover" />
                         <p className="author-price">
                             Author: {book.author}<br />
                                 Price: {book.price}
