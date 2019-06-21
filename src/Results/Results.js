@@ -7,7 +7,7 @@ class Results extends Component {
         return (
             <section className="results">
                 <ul>
-                    <Result />
+                    <Result books={this.props.books}/>
                 </ul>
             </section>
         );
